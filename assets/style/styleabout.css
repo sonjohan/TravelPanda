@@ -1,0 +1,159 @@
+/* FontAwesome for working BootSnippet :> */
+@import url('https://fonts.googleapis.com/css?family=Anton|Caveat');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.meet {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.the {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    color:rgba(0,113,189);
+
+}
+
+nav {
+    border-bottom: #e2e2e2;
+    border-style: inherit;
+    border-width: 15px;
+    
+  }
+
+#containerbody {
+    background-color: #e2e2e2;
+    padding-bottom: 30px;
+  }
+  .mainbody {
+    background-color: #c8c8c8;
+  }
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: lightgray;
+    border-color: gray;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(0,113,189);
+    border-color:rgba(0,113,189);
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: rgba(0,113,189) !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: black !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.footer {
+    border-top: #e2e2e2;
+    border-style: inherit;
+    border-width: 15px;
+    background-color: white; padding-top: 50px; color: #636e74; font-weight: 400; font-size: 17px;  position: relative; float: none; bottom: 0; width: 100%;}
+.tiny-footer { font-size: 14px; font-weight: 600; background-color: transparent; color: #888d90; line-height: 1.5; text-align: center; }

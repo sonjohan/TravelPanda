@@ -1,0 +1,123 @@
+.header {
+  margin-top: 20%;
+}
+
+nav {
+  border-bottom: #e2e2e2;
+  border-style: inherit;
+  border-width: 15px;
+  
+}
+
+#containerbody {
+  background-color: #e2e2e2;
+  
+}
+.mainbody {
+  background-color: #c8c8c8;
+}
+.main-message {
+  line-height: 0.5;
+  text-align: right;
+}
+
+#map {
+  overflow: hidden;
+  vertical-align: top;
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  
+}
+
+i {
+  font-size: 20px;
+  color: rgba(0,113,189);
+}
+
+button {
+  background-color: rgba(0,113,189);
+  border-color: rgba(0,113,189);
+  color: white;
+}
+
+h2, h3, h4, h5{
+  color: #5a5a5a;
+}
+
+
+.footer {
+  border-top: #e2e2e2;
+  border-style: inherit;
+  border-width: 15px;
+   background-color: white; padding-top: 50px; color: #636e74; font-weight: 400; font-size: 17px;  position: relative; bottom: 0; width: 100%;}
+.tiny-footer { font-size: 14px; font-weight: 600; background-color: transparent; color: #888d90; line-height: 1.5; text-align: center; }
+
+.aw-get-this-widget {
+  display: none;
+}
+
+.aw-get-widget-icon
+{
+  display: none;
+}
+
+#link_get_widget {
+  display: none;
+}
+
+.aw-fc-status {
+  display: none;
+}
+
+.aw-mc {
+  display: none;
+}
+
+.aw-mc-promo {
+  display: none;
+}
+
+aw-six-hours-inner {
+  align-content: center;
+}
+  
+#link_arrow_right {
+  display: none;
+}
+
+.aw-arrow {
+  display: none;
+}
+
+.aw-arrow-right {
+  display: none;
+}
+
+.aw-now {
+  display: none;
+}
+
+.video-still {
+  display: none;
+}
+
+.aw-more-content {
+  display: none;
+}
+
+.aw-six-hours-inner {
+  display: none;
+}
+
+.bit-logo-desktop {
+  display: none;
+}
+
+a.power_by {
+  display: none;
+}
+
+.res_search_footer {
+  display: none;
+}
